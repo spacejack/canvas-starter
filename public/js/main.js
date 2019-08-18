@@ -34,8 +34,9 @@ function initApp() {
 /** Render the scene */
 function render() {
 	// Clear the screen
+	context.beginPath()
 	context.fillStyle = BG_COLOR
-	context.clearRect(0, 0, viewport.width, viewport.height)
+	context.fillRect(0, 0, viewport.width, viewport.height)
 
 	// Set up a cartesian-style coordinate system with 0,0
 	// at the centre of the screen, and Y axis up.
