@@ -1,0 +1,72 @@
+html {
+	box-sizing: border-box;
+	height: 100%;
+}
+
+* {
+	box-sizing: inherit;
+}
+*:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #000;
+	color: #ddd;
+	font-family: Monospace;
+	font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+	margin: 0.25em 0;
+}
+
+a {
+	color: #fe3;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+button {
+	cursor: pointer;
+}
+
+sup {
+	font-size: 0.6em;
+}
+
+.container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.main-canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+
+.ui-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 1em;
+	box-sizing: border-box;
+	text-align: center;
+}
