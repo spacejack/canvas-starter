@@ -12,6 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "budo": "^11.6.3",
-    "eslint": "^6.1.0"
+    "eslint": "^6.6.0"
   }
 }
